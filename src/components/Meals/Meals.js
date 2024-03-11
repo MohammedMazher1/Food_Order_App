@@ -1,5 +1,6 @@
 import MealsSummary from "./MealsSummary";
 import AvilableMeals from "./AvaiableMeals";
+
 import { Fragment } from "react";
 import AvailableMeals from "./AvaiableMeals";
 
