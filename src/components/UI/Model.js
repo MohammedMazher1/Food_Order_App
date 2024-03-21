@@ -12,9 +12,9 @@ const ModelOverlay = props => {
 }
 const portalElement = document.getElementById('overlays')
 const Model = props => {
-    return <Fragment>
+    return <>
         {ReactDOM.createPortal(<Backdrop onClose={props.onClose} />, portalElement)}
         {ReactDOM.createPortal(<ModelOverlay >{props.children}</ModelOverlay>, portalElement)}
-    </Fragment>
+    </>
 }
 export default Model; 
